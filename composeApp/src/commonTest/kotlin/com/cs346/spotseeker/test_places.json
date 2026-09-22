@@ -1,0 +1,355 @@
+{
+  "places": [
+    {
+      "place_id": "TEST_DC_LIB", // Example place_id, unique identifier
+      "name": "Davis Centre Library", // places name known by people
+      "formatted_address": "DC, 130 Columbia St W, Waterloo, ON N2L 3G1, Canada", // full address known by people
+      "geometry": { // location details (latitude, longitude)
+        "location": {
+          "lat": 43.472285,
+          "lng": -80.544858
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "N2L 3G1",
+          "short_name": "N2L 3G1",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "types": [ // building types
+        "library",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_DP_LIB",
+      "name": "Dana Porter Library",
+      "formatted_address": "200 University Ave W, Waterloo, ON N2L 3G1, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.4699,
+          "lng": -80.5416
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "N2L 3G1",
+          "short_name": "N2L 3G1",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "types": [
+        "library",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_MC",
+      "name": "Mathematics & Computer (MC)",
+      "formatted_address": "MC, Ring Road, Waterloo, ON, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.472,
+          "lng": -80.5432
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "types": [
+        "university",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_QNC",
+      "name": "Quantum-Nano Centre (QNC)",
+      "formatted_address": "QNC, 200 University Ave W, Waterloo, ON, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.4696,
+          "lng": -80.541
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "types": [
+        "research_institute",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_SLC",
+      "name": "Student Life Centre (SLC)",
+      "formatted_address": "SLC, Ring Road, Waterloo, ON, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.4706,
+          "lng": -80.5437
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "types": [
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_PAC",
+      "name": "Physical Activities Complex (PAC)",
+      "formatted_address": "PAC, Ring Road, Waterloo, ON, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.4727,
+          "lng": -80.5457
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "types": [
+        "gym",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_E5",
+      "name": "Engineering 5 (E5)",
+      "formatted_address": "E5, Ring Road, Waterloo, ON, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.4729,
+          "lng": -80.5404
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "types": [
+        "engineering_school",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "place_id": "TEST_STC",
+      "name": "Science Teaching Complex (STC)",
+      "formatted_address": "STC, Ring Road, Waterloo, ON, Canada",
+      "geometry": {
+        "location": {
+          "lat": 43.4694,
+          "lng": -80.5428
+        }
+      },
+      "address_components": [
+        {
+          "long_name": "Waterloo",
+          "short_name": "Waterloo",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ontario",
+          "short_name": "ON",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "types": [
+        "university",
+        "point_of_interest",
+        "establishment"
+      ]
+    }
+  ],
+  "status": "OK"
+}
